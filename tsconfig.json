@@ -1,0 +1,16 @@
+{
+      "compilerOptions": {
+            "esModuleInterop": true,
+            "resolveJsonModule": true,
+            "declaration" : true,
+            "target": "es6",
+            "sourceMap": true,
+            "module": "commonjs",
+            "moduleResolution": "node",
+            "baseUrl": "src",
+            "paths": {
+                  "@routes/*" : [ "routes/*" ]
+            }
+      
+      }
+}
